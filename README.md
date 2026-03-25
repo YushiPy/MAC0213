@@ -27,10 +27,10 @@ Reconhece-se que as dificuldades observadas decorrem de problemas estruturais ma
 ## Estimativa de Carga Horária
 
 Cada visita à escola, seja às terças ou às quartas-feiras, segue a seguinte estrutura:
-- Reunião prévia com o professor (alinhamento de conteúdo e preparação de exercícios): 30 min
-- Aula com os alunos: 2h
-- Reunião posterior com o professor (avaliação da aula e planejamento de revisões): 30 min
-- Total por visita: 3h
+- Reunião prévia com o professor (alinhamento de conteúdo e preparação de exercícios): `30 min`
+- Aula com os alunos: `2h`
+- Reunião posterior com o professor (avaliação da aula e planejamento de revisões): `30 min`
+- Total por visita: `3h`
 
 As reuniões pré e pós-aula são realizadas para garantir o alinhamento com o professor e para identificar pontos de dificuldade e alunos que possam demandar atenção especial, dada a complexidade do perfil das turmas atendidas.
 
@@ -82,11 +82,11 @@ Vamos relatar as atividades desenvolvidas durante a participação na atividade:
 
 1. `03/03`: Iniciei minha participação nas aulas de nivelamento, acompanhando o professor Agnaldo na turma 3ºB, composta por alunos do terceiro ano do ensino médio com pretensão de ingressar em cursos de humanas. O conteúdo da aula foi notação científica, com foco em exercícios de conversão de unidades e operações com potências. Os alunos demonstraram dificuldades com conversão de unidades — em particular, não sabiam determinar se deveriam multiplicar ou dividir para realizar as conversões. Para auxiliar, recorri a exemplos práticos e analogias. Também foi necessário revisar operações com potências, pois muitos alunos confundiam as regras de soma e multiplicação. A aula durou 2 horas e foi produtiva, com participação ativa dos alunos.
 
-2. `10/03`: Acompanhei novamente o professor Agnaldo, desta vez em uma turma de nivelamento composta por alunos de todas as salas do terceiro ano com dificuldades acentuadas em matemática. Como na aula anterior os alunos não conseguiram avançar no conteúdo de notação científica — evidenciando lacunas em conversão de unidades e operações com potências —, optamos por reiniciar o tema do zero, com abordagem mais gradual e uso intensivo de exemplos práticos e exercícios resolvidos. Eu e o professor Agnaldo circulamos pela sala durante toda a aula, auxiliando os alunos individualmente. A aula durou 2 horas e os alunos demonstraram progresso em relação ao encontro anterior, conseguindo resolver os exercícios com mais facilidade. No entanto, foram observadas dificuldades com conceitos muito básicos, como operações com números negativos, o que reforça a importância do trabalho de nivelamento.
+2. `10/03`: Acompanhei novamente o professor Agnaldo, desta vez em uma turma de nivelamento composta por alunos de todas as salas do terceiro ano com dificuldades acentuadas em matemática. Como na aula anterior os alunos não conseguiram avançar no conteúdo de notação científica, evidenciando lacunas em conversão de unidades e operações com potências, optamos por reiniciar o tema do zero, com abordagem mais gradual e uso intensivo de exemplos práticos e exercícios resolvidos. Eu e o professor Agnaldo circulamos pela sala durante toda a aula, auxiliando os alunos individualmente. A aula durou 2 horas e os alunos demonstraram progresso em relação ao encontro anterior, conseguindo resolver os exercícios com mais facilidade. No entanto, foram observadas dificuldades com conceitos muito básicos, como operações com números negativos, o que reforça a importância do trabalho de nivelamento.
 
 3. `17/03`: Acompanhei o professor Agnaldo em aula sobre porcentagens, abordando cálculo de descontos, acréscimos e juros simples. Os alunos apresentaram dificuldades na aplicação das fórmulas, especialmente na identificação do valor base e do percentual. Para tornar o conteúdo mais acessível, utilizei exemplos do cotidiano, como descontos em compras e juros em empréstimos. Os alunos participaram ativamente e demonstraram progresso em relação às aulas anteriores, conseguindo aplicar as fórmulas com mais desenvoltura. A aula durou 2 horas e foi produtiva.
 
-4. `24/03`: Acompanhei o professor Agnaldo em mais uma aula sobre porcentagens, com foco em cálculo de descontos e acréscimos. Os alunos continuaram apresentando dificuldades na identificação do valor base e do percentual, agravadas por deficiências em aritmética básica — adição, subtração, multiplicação e divisão de inteiros e decimais —, o que compromete a aplicação das fórmulas. Recorri novamente a exemplos práticos do cotidiano, como descontos em lojas e acréscimos em contas de serviços. Embora muitos compreendessem os exemplos durante a explicação, ainda apresentavam dificuldades ao tentar resolver os exercícios de forma independente. A aula durou 2 horas e evidenciou a necessidade de um trabalho mais aprofundado em aritmética básica antes de avançar no conteúdo de porcentagem.
+4. `24/03`: Acompanhei o professor Agnaldo em mais uma aula sobre porcentagens, com foco em cálculo de descontos e acréscimos. Os alunos continuaram apresentando dificuldades na identificação do valor base e do percentual, agravadas por deficiências em aritmética básica — adição, subtração, multiplicação e divisão de inteiros e decimais, o que compromete a aplicação das fórmulas. Recorri novamente a exemplos práticos do cotidiano, como descontos em lojas e acréscimos em contas de serviços. Embora muitos compreendessem os exemplos durante a explicação, ainda apresentavam dificuldades ao tentar resolver os exercícios de forma independente. A aula durou 2 horas e evidenciou a necessidade de um trabalho mais aprofundado em aritmética básica antes de avançar no conteúdo de porcentagem.
 
 ## Quartas-Feiras (1º Ano do Ensino Médio)
 
