@@ -1,2 +1,19 @@
 _*
 .DS_Store
+
+# Latex
+*.aux
+*.bcf
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.toc
+*.synctex.gz
+*.synctex*
+
+# Bibtex
+*.bbl*
+*.blg
+*.bcf-SAVE-ERROR

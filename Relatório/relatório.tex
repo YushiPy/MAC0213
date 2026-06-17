@@ -1,0 +1,409 @@
+\documentclass[11pt]{article}
+
+\usepackage[
+	a4paper,
+	bindingoffset=0.2in,
+	left=0.8in,
+	right=0.8in,
+	top=1in,
+	bottom=1.10in,
+	footskip=.50in
+]{geometry}
+
+\usepackage[brazil]{babel}
+\usepackage{amsmath, amssymb, mathtools}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{multirow}
+\usepackage{setspace}
+\usepackage{breakcites}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{csquotes}
+\usepackage{indentfirst}
+\usepackage{longtable}
+
+\setlength{\parindent}{2em}
+
+% \pagestyle{fancy}
+\fancyhf{}
+\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{1.5pt}
+
+\onehalfspacing
+
+\begin{document}
+
+\begin{center}
+
+	\textbf{\LARGE Monitoria de Matemática na Escola Estadual Ibrahim Nobre}
+
+	\vspace{2em}
+
+	\large{
+		Disciplina: MAC0213 --- Atividade Curricular em Comunidade (2026) \\
+		Aluno: Gabriel Freire Ushijima (NUSP: 15453282)\footnote{gabriel\_ushijima@ime.usp.br} \\
+		Supervisor: Prof.\ Dr.\ Ernesto G. Birgin \footnote{egbirgin@ime.usp.br} \\
+	}
+
+\end{center}
+
+\begin{abstract}
+Este relatório descreve a atividade de monitoria de matemática realizada na Escola Estadual Ibrahim Nobre, no primeiro semestre de 2026, como parte da disciplina MAC0213 --- Atividade Curricular em Comunidade. A atividade consistiu em duas sessões semanais de acompanhamento a turmas do ensino médio com dificuldades significativas em matemática: às terças-feiras, em aulas de nivelamento do terceiro ano; às quartas-feiras, em aulas de nivelamento do primeiro ano. Ao longo do semestre, foram realizadas 34 visitas à escola, totalizando 102 horas de atividade. Os resultados evidenciam lacunas profundas em aritmética básica em ambas as turmas, agravadas por dificuldades de engajamento, especialmente no primeiro ano. Apesar dos obstáculos, foram observados progressos pontuais e situações de aprendizagem genuína, reforçando a relevância do trabalho de monitoria como intervenção complementar ao ensino regular.
+\end{abstract}
+
+\section{Introdução}
+
+A precarização do ensino de matemática nas escolas públicas brasileiras é um problema estrutural amplamente documentado. Alunos chegam ao ensino médio sem dominar operações aritméticas elementares, comprometendo sua capacidade de acompanhar os conteúdos subsequentes e, em última instância, suas perspectivas acadêmicas e profissionais.
+
+A Escola Estadual Ibrahim Nobre está localizada no bairro de Campo Grande, na Zona Sul de São Paulo, e atende exclusivamente alunos do ensino médio. A escola faz parte do Programa Ensino Integral (PEI), que prevê jornada ampliada e um projeto pedagógico voltado ao desenvolvimento das competências dos alunos. Ainda assim, como tantas outras escolas públicas estaduais, a Ibrahim Nobre enfrenta desafios estruturais sérios: professores com salários atrasados, quadro de funcionários reduzido e docentes lecionando fora de sua área de formação, como professores de física ministrando aulas de matemática e professores de biologia cobrindo química. Antes de iniciar as monitorias, participei de uma reunião com a equipe de professores, na qual ficou evidente a preocupação coletiva com o desempenho em exatas: os professores apontaram que as dificuldades em matemática constituem um gargalo que compromete o aprendizado em outras disciplinas, dado o caráter transversal da disciplina.
+
+Para mitigar esse problema, a escola adota uma estratégia de nivelamento: turmas compostas pelos alunos com maior defasagem recebem aulas de reforço ministradas por professores da própria escola, com apoio de monitores externos. É nesse contexto que se insere a presente atividade.
+ 
+No primeiro semestre de 2026, atuei como monitor de matemática nessa escola, participando de duas sessões semanais: às terças-feiras, acompanhando uma turma de nivelamento do terceiro ano do ensino médio e às quartas-feiras, acompanhando uma eletiva de matemática do primeiro ano. Em ambos os casos, minha função consistia em circular pela sala durante os exercícios, auxiliar os alunos individualmente, esclarecer dúvidas e reportar dificuldades recorrentes ao professor responsável.
+
+O objetivo geral da atividade é contribuir com o aprendizado de matemática de alunos da rede pública estadual que apresentam dificuldades significativas na disciplina. De forma mais específica:
+
+\begin{itemize}
+	\item \textbf{3º Ano:} nivelar o conhecimento matemático dos alunos com mais dificuldade, melhorando seu desempenho no vestibular e consolidando competências matemáticas aplicáveis à vida.
+	\item \textbf{1º Ano:} garantir que os alunos iniciem o ensino médio com a base necessária para acompanhar os conteúdos da disciplina sem o acúmulo de lacunas conceituais.
+\end{itemize}
+
+\section{Materiais e Métodos}
+
+\subsection{Estrutura das Sessões}
+
+Cada visita à escola seguiu a estrutura apresentada na Tabela~\ref{tab:estrutura}.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lc}
+\toprule
+\textbf{Atividade} & \textbf{Duração} \\
+\midrule
+Reunião prévia com o professor (alinhamento de conteúdo) & 30 min \\
+Aula com os alunos & 2h \\
+Reunião posterior com o professor (avaliação e planejamento) & 30 min \\
+\midrule
+\textbf{Total por visita} & \textbf{3h} \\
+\bottomrule
+\end{tabular}
+\caption{Estrutura de cada visita à escola.}
+\label{tab:estrutura}
+\end{table}
+
+\subsection{Metodologia de Monitoria}
+
+A dinâmica das aulas consistia em uma exposição breve do conteúdo pelo professor, seguida de um período extenso de resolução de exercícios. Durante essa segunda etapa, eu circulava pela sala auxiliando os alunos individualmente, verificando resoluções, orientando procedimentos e identificando dificuldades recorrentes para reportar ao professor.
+
+Quando necessário, tomei iniciativas próprias para facilitar a compreensão dos alunos: recorri a analogias do cotidiano (como associar a soma de números negativos a dívidas e valores em dinheiro), resolvi exercícios análogos aos propostos para que os alunos compreendessem a ideia da resolução sem que eu fornecesse a resposta diretamente, e chamei alunos à lousa para resolver exemplos.
+
+\subsection{Professores e Turmas}
+
+Ao longo do semestre, trabalhei com quatro professores distintos:
+
+\begin{itemize}
+	\item \textbf{Prof.\ Agnaldo} (terças, março--maio): responsável pela turma de nivelamento do 3º ano até maio. Em uma ocasião isolada, devido à aplicação da OBMEP, acompanhei uma turma do 2º ano em vez do nivelamento regular.
+	\item \textbf{Profa.\ Ione} (quartas, abril--julho; terças, junho): responsável pela eletiva do 1º ano às quartas desde abril, e também pela turma de nivelamento do 3º ano às terças a partir de junho, em substituição ao Prof.\ Agnaldo.
+	\item \textbf{Prof.\ Paulo} (quartas, março--abril): responsável pela eletiva do 1º ano no início do semestre.
+	\item \textbf{Prof.\ Francisco} (quartas, junho): professor com turma própria do 3º ano, acompanhada nas quartas-feiras em que a eletiva da Profa.\ Ione estava indisponível, como nos dias do Provão Paulista.
+\end{itemize}
+
+Eventos excepcionais no calendário escolar, como o Provão Paulista e olimpíadas de conhecimento (e.g.\ OBMEP), ocasionalmente exigiram o acompanhamento de turmas ou atividades diferentes das previstas; esses casos, contudo, foram isolados e não alteraram a estrutura geral da atividade.
+
+\subsection{Carga Horária}
+
+No período de março a julho de 2026, desconsiderando feriados, foram realizadas 34 visitas à escola (17 às terças e 17 às quartas), totalizando \textbf{102 horas} de atividade, atendendo ao requisito mínimo de 100 horas estabelecido pela disciplina MAC0213. O cronograma previsto está na Tabela~\ref{tab:cronograma}.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lccr}
+\toprule
+\textbf{Mês} & \textbf{Terças} & \textbf{Quartas} & \textbf{Total} \\
+\midrule
+Março & 5 aulas (3, 10, 17, 24, 31) & 4 aulas (4, 11, 18, 25) & 9 aulas / 27h \\
+Abril & 3 aulas (7, 14, 28) & 5 aulas (1, 8, 15, 22, 29) & 8 aulas / 24h \\
+Maio  & 4 aulas (5, 12, 19, 26) & 4 aulas (6, 13, 20, 27) & 8 aulas / 24h \\
+Junho & 5 aulas (2, 9, 16, 23, 30) & 4 aulas (3, 10, 17, 24) & 9 aulas / 27h \\
+\midrule
+\textbf{Total} & \textbf{17 aulas} & \textbf{17 aulas} & \textbf{34 aulas / 102h} \\
+\bottomrule
+\end{tabular}
+\caption{Cronograma de aulas previstas.}
+\label{tab:cronograma}
+\end{table}
+
+\section{Resultados e Discussão}
+
+\subsection{Terças-Feiras --- 3º Ano do Ensino Médio}
+
+As aulas de nivelamento do terceiro ano revelaram um padrão consistente ao longo do semestre: dificuldades profundas em aritmética básica comprometendo a compreensão de conteúdos mais avançados. Nos meses iniciais, o foco foi notação científica e porcentagens. Mesmo com o ritmo propositalmente mais lento, muitos alunos não conseguiam resolver problemas idênticos aos das aulas anteriores sem auxílio.
+
+Um caso emblema ocorreu em abril, durante a revisão pré-prova: nenhum aluno conseguiu determinar o valor inicial de um investimento a partir do valor final e da taxa de juros, evidenciando que parte da turma havia memorizado algoritmos sem compreender os conceitos subjacentes.
+
+A partir de abril, os conteúdos avançaram para funções e equações do 2º grau. As dificuldades de álgebra básica, como manipulação de expressões e cálculo de raízes quadradas, comprometeram a progressão. 
+
+Em junho, ao acompanhar uma turma regular de 2º ano com o Prof.\ Agnaldo (substituindo a aula de nivelamento do 3º ano por conta da OBMEP), o contraste foi marcante: os alunos demonstraram muito maior autonomia, com dificuldades de aritmética significativamente menos prevalentes. Esse contraste provavelmente se deve ao fato de que essa turma não é de nivelamento, ou seja, não concentra especificamente os alunos com maior defasagem, ao contrário das turmas acompanhadas nas demais terças-feiras.
+
+Um padrão preocupante identificado em junho foi a tendência dos alunos de aplicar mecanicamente a fórmula de Bhaskara a qualquer expressão quadrática, independentemente do que o enunciado solicitava. Em um exercício de maximização, muitos relataram que o problema ``não tinha solução'' ao obter \(\Delta = 72\), sem perceber que as raízes eram irrelevantes para a questão.
+
+Apesar das dificuldades, foram observados progressos. Os alunos demonstraram aumento de autonomia na resolução de exercícios ao longo das semanas e, nas aulas em que o conteúdo foi apresentado de forma mais tangível e gradual, a participação foi visivelmente maior.
+
+\subsection{Quartas-Feiras --- 1º Ano do Ensino Médio}
+
+As aulas do primeiro ano evidenciaram dificuldades ainda mais fundamentais. Em março, foi necessário trabalhar direção, sentido e sistemas monetários com uma apostila do 5º ano do ensino fundamental. Muitos alunos não compreendiam o conceito de números negativos.
+
+Ao longo do semestre, o trabalho com o Prof.\ Paulo e, posteriormente, com a Profa.\ Ione cobriu operações com decimais, tabuada, frações, ordenação de números e potenciação. A tabuada mostrou-se um obstáculo persistente: mesmo em maio, muitos alunos recorriam a ``colinha'' para multiplicações elementares, e a maioria esquecia de adicionar o zero ao multiplicar dezenas.
+
+O engajamento foi o principal desafio nessa turma. Em diversas aulas, apenas metade da sala tentava resolver os exercícios, com o restante priorizando o celular ou conversas paralelas. Mesmo entre os que tentavam, a resistência a exercícios percebidos como ``fáceis demais'' era frequente, ainda que não conseguissem resolvê-los corretamente.
+
+Pontos positivos: os alunos assimilaram com relativa facilidade técnicas apresentadas de forma visual e direta, como a regra da borboleta para soma de frações. A potenciação de frações, introduzida em junho, também foi absorvida com mais facilidade do que esperado. A eletiva do 3º ano acompanhada pelo Prof.\ Francisco às quartas mostrou uma turma mais engajada e com melhor compreensão dos conteúdos, o que reforça a relevância de se intervir precocemente nas defasagens.
+
+\subsection{Reflexão Geral}
+
+A atividade evidenciou que as dificuldades dos alunos não se restringem ao conteúdo matemático: incluem dificuldades de leitura e interpretação de enunciados, baixo engajamento com a escola, e ausência de hábitos de estudo. Esses fatores estruturais limitam o impacto de intervenções pontuais como a monitoria.
+
+Ainda assim, a presença de um monitor circulando individualmente entre os alunos mostrou-se valiosa, especialmente para os alunos que têm vergonha de perguntar ao professor ou que precisam de uma explicação mais personalizada. Em várias ocasiões, alunos que não apresentavam dúvidas na lousa abordavam-me durante os exercícios e demonstravam dificuldades significativas que não seriam detectadas de outra forma. Diversos alunos, ao final das aulas, agradeceram pessoalmente pela monitoria, relatando preferir a forma como eu explicava os conteúdos em comparação à explicação do professor, e destacando que se sentiam mais confortáveis recorrendo a um monitor do que ao professor, possivelmente por perceberem o monitor como uma figura mais acessível e menos intimidadora.
+
+\section{Conclusão}
+
+A atividade de monitoria na Escola Estadual Ibrahim Nobre foi uma experiência significativa, tanto do ponto de vista do impacto nos alunos quanto do meu próprio desenvolvimento. O contato direto com as dificuldades do ensino público reforça a importância de iniciativas de extensão universitária voltadas à educação básica.
+
+Os resultados mostram que é possível causar impacto positivo mesmo dentro das limitações estruturais do sistema. Alunos que receberam atenção individualizada demonstraram progressos mensuráveis, ainda que graduais. A experiência também evidenciou que competências matemáticas não são consolidadas de forma isolada: dependem de hábitos de leitura, engajamento com a escola e confiança do aluno em sua própria capacidade.
+
+Como próximos passos, seria interessante estruturar intervenções mais sistemáticas para a tabuada no primeiro ano, e desenvolver materiais que abordem o vínculo entre procedimentos algébricos e sua interpretação conceitual para o terceiro ano, reduzindo a tendência à aplicação mecânica de fórmulas.
+
+\begin{thebibliography}{9}
+
+\bibitem{seduc-pei}
+São Paulo (Estado). Decreto nº 66.799, de 31 de maio de 2022. Institui o Programa de Ensino Integral nas escolas da rede estadual de ensino. \emph{Diário Oficial do Estado de São Paulo}, São Paulo, 2022.
+
+\bibitem{provao-paulista}
+São Paulo (Estado). Secretaria da Educação. \emph{Provão Paulista Seriado}: avaliação seriada de ingresso em universidades públicas paulistas. São Paulo: SEDUC, 2024.
+
+\bibitem{obmep}
+Olimpíada Brasileira de Matemática das Escolas Públicas (OBMEP). Disponível em: \url{https://www.obmep.org.br/}. Acesso em: jun.\ 2026.
+
+\end{thebibliography}
+
+\section*{Histórico Detalhado de Atividades}
+
+A seguir, apresenta-se o histórico detalhado de todas as atividades realizadas ao longo do semestre, incluindo a data, o professor responsável, a turma acompanhada, o conteúdo abordado e a duração de cada visita. Como meio de acompanhamento público do desenvolvimento da atividade, conforme exigido pela disciplina, as visitas foram registradas continuamente em um repositório no GitHub: \url{https://github.com/YushiPy/MAC0213}. O único arquivo relevante do repositório é o \texttt{README.md}, no qual cada visita (ou conjunto de visitas) foi documentada por meio de um commit individual, totalizando 19 commits até o momento, o que evidencia o registro contínuo das atividades ao longo do semestre.
+
+\subsection*{Terças-Feiras}
+
+\subsubsection*{03/03 --- Prof.\ Agnaldo, nivelamento 3º EM \textbar\ Notação científica}
+
+Iniciei minha participação nas aulas de nivelamento, acompanhando o professor Agnaldo na turma 3ºB. O conteúdo foi notação científica, com foco em conversão de unidades e operações com potências. Os alunos demonstraram dificuldades em determinar quando multiplicar ou dividir em conversões de unidade. Foi necessário revisar operações com potências, pois muitos confundiam as regras de soma e multiplicação. A aula foi produtiva, com participação ativa.
+
+\textbf{Duração:} 3h (30min reunião prévia + 2h aula + 30min reunião posterior)
+
+\subsubsection*{10/03 --- Prof.\ Agnaldo, nivelamento 3º EM \textbar\ Notação científica (revisão)}
+
+Como os alunos não conseguiram avançar no conteúdo, reiniciamos o tema do zero com abordagem mais gradual e uso intensivo de exemplos práticos. Os alunos demonstraram progresso em relação ao encontro anterior, mas foram observadas dificuldades com operações básicas, como números negativos.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{17/03 --- Prof.\ Agnaldo, nivelamento 3º EM \textbar\ Porcentagem}
+
+Aula sobre porcentagens: cálculo de descontos, acréscimos e juros simples. Os alunos apresentaram dificuldades na identificação do valor base e do percentual. Utilizei exemplos do cotidiano, como descontos em compras e juros em empréstimos.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{24/03 --- Prof.\ Agnaldo, nivelamento 3º EM \textbar\ Porcentagem}
+
+Continuação de porcentagens. As dificuldades persistiram, agravadas por lacunas em aritmética básica. Muitos compreendiam os exemplos explicados, mas não conseguiam resolver os exercícios de forma independente.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{31/03 --- Prof.\ Agnaldo, nivelamento 3º EM \textbar\ Porcentagem e juros}
+
+Revisão de porcentagens com exercícios sobre descontos, acréscimos, juros simples e compostos. Os alunos demonstraram maior familiaridade com descontos e acréscimos, mas ainda apresentaram dificuldades com juros.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{07/04 --- Prof.\ Agnaldo, nivelamento 3º EM \textbar\ Revisão geral (pré-prova)}
+
+Revisão sobre notação científica e porcentagens para preparar os alunos para a prova do dia seguinte. Nenhum aluno conseguiu determinar o valor inicial de um investimento a partir do valor final e da taxa de juros, evidenciando memorização de algoritmos sem compreensão dos conceitos.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{14/04 --- Provão Paulista (sem aula regular)}
+
+Os alunos realizaram o Provão Paulista. Permaneci na escola oferecendo suporte logístico. Os resultados preliminares evidenciaram dificuldades significativas da turma em matemática.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{21/04 --- Feriado de Tiradentes}
+
+Não houve aula.
+
+\subsubsection*{28/04 --- Prof.\ Agnaldo, nivelamento 3º EM \textbar\ Funções e equações lineares}
+
+Aula sobre funções: definição, domínio, imagem, gráficos e equações lineares. A maioria dos alunos apresentou dificuldades com os conceitos de função, especialmente na identificação do domínio e da imagem. O professor avançou no conteúdo em razão do calendário.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{05/05 --- Prof.\ Agnaldo, nivelamento 3º EM \textbar\ Gráficos de funções}
+
+Aula sobre gráficos de funções lineares e quadráticas. Os alunos demonstraram dificuldades em compreender a relação entre a representação algébrica e a gráfica.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{12/05 --- Prof.\ Agnaldo, nivelamento 3º EM \textbar\ Equações do 2º grau}
+
+Aula sobre equações do segundo grau. Os alunos demonstraram dificuldades em calcular raízes quadradas e manipular expressões algébricas. Também evidenciaram lacunas em geometria básica (Teorema de Pitágoras e área de figuras planas). Apesar disso, foram bastante participativos e demonstraram progresso ao final.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{19/05 --- Prof.\ Agnaldo, nivelamento 3º EM \textbar\ Funções quadráticas}
+
+Aula sobre funções quadráticas: forma geral, fórmula de Bhaskara, concavidade e vértice. Os problemas propostos incluíam construir funções que representassem situações reais. Os alunos demonstraram dificuldades de interpretação textual e manipulação algébrica; alguns pareceram desistir ao se sentirem completamente perdidos.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{26/05 --- Prof.\ Agnaldo, nivelamento 3º EM \textbar\ Funções quadráticas (revisão)}
+
+Diante das dificuldades e da baixa participação anterior, revisamos o conteúdo. O professor apresentou casos de fatoração direta e discutiu concavidade e construção de gráficos. Os alunos estiveram mais participativos, provavelmente pela abordagem mais concreta.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{02/06 --- Prof.\ Agnaldo, nivelamento 3º EM \textbar\ Funções quadráticas (exercícios)}
+
+Aula de exercícios. Foi observado o padrão de aplicar mecanicamente a fórmula de Bhaskara a qualquer expressão quadrática. Em um exercício de maximização, muitos relataram que o problema ``não tinha solução'' ao obter \(\Delta = 72\). As dificuldades com aritmética básica persistiram.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{09/06 --- Prof.\ Agnaldo, 2º EM \textbar\ Função logarítmica}
+
+Acompanhei uma turma de segundo ano. Após o término do Provão Paulista (OBMEP), o professor conduziu revisão sobre função logarítmica. Os alunos demonstraram bom entendimento dos conceitos e habilidades de resolução de problemas consideravelmente superiores às da turma de terceiro ano.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{16/06 --- Prof.\ Francisco, 3º D EM \textbar\ Probabilidade}
+
+Acompanhei o professor Francisco em uma turma do terceiro ano. O professor apresentou conceitos de probabilidade e os alunos resolveram exercícios clássicos. A maioria não apresentou dúvidas significativas.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{23/06 --- Profa.\ Ione, 1º EM \textbar\ Aritmética básica (adição e multiplicação)}
+
+Acompanhei a professora Ione em uma turma do primeiro ano. A aula foi dedicada a exercícios de adição e multiplicação. Muitos não dominam a tabuada e contavam nos dedos para adições. A resistência ao engajamento foi significativa: apenas metade da sala tentava resolver os exercícios.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{30/06 --- Profa.\ Ione, 1º EM \textbar\ Aritmética básica (subtração e divisão)}
+
+Continuação com subtração e divisão. As dificuldades e a resistência ao engajamento persistiram.
+
+\textbf{Duração:} 3h
+
+\subsection*{Quartas-Feiras}
+
+\subsubsection*{04/03 --- Prof.\ Paulo, 1º A EM \textbar\ Apresentação e organização das eletivas}
+
+Iniciei minha participação nas aulas do primeiro ano. Apresentei brevemente a experiência universitária aos alunos. A aula foi dedicada à organização dos alunos nas eletivas por critério de desempenho. Ao final, o professor propôs dois problemas de raciocínio lógico.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{11/03 --- Prof.\ Paulo, 1º A EM \textbar\ Tabela pitagórica}
+
+Parte da aula foi dedicada à organização dos alunos em clubes de extensão. Ao final, os alunos completaram a tabela pitagórica na lousa. Muitos apresentaram dificuldades com a tabuada e não identificaram a simetria diagonal da tabela.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{18/03 --- Prof.\ Paulo, eletiva 1º EM \textbar\ KenKen e operações com decimais}
+
+A aula começou com o jogo KenKen (semelhante ao sudoku com operações básicas) e uma atividade com dados. Em seguida, abordamos soma e subtração com decimais na lousa. A turma demonstrou dificuldades no alinhamento de vírgulas e com o conceito de números negativos.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{25/03 --- Prof.\ Paulo, eletiva 1º EM \textbar\ Direção, sentido e localização}
+
+Trabalhamos os tópicos de direção, sentido e localização em percurso com a apostila do 5º ano. Muitos alunos apresentaram dificuldade em mudar de referencial ao identificar esquerda/direita em figuras. O professor associou esse conteúdo à posterior compreensão do plano cartesiano.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{01/04 --- Prof.\ Paulo, eletiva 1º EM \textbar\ Sistemas monetários e troca de cédulas}
+
+Foco nos tópicos de sistemas monetários e situações de troca. Surgiram dúvidas sobre operações com vírgula. Muitos alunos tentavam resolver mentalmente sem registrar os cálculos. Ao final, o professor propôs um problema clássico de lógica (travessia de ponte).
+
+\textbf{Duração:} 3h
+
+\subsubsection*{08/04 --- Prof.\ Paulo, eletiva 1º EM \textbar\ Revisão de frações e Teorema de Pitágoras}
+
+Última aula do professor Paulo. Os alunos escolheram revisar Teorema de Pitágoras e frações. Elaborei exercícios de frações para um aluno que solicitou auxílio com as diferenças entre as operações. Auxiliei também uma aluna com um exercício envolvendo a terna 3, 4, 5.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{15/04 --- Provão Paulista (sem aula regular)}
+
+Os alunos realizaram o Provão Paulista. Permaneci na escola com suporte logístico. Os resultados preliminares reforçaram a importância da monitoria.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{22/04 --- Profa.\ Ione, eletiva 1º EM \textbar\ Tabuada e multiplicação}
+
+Primeira aula com a Profa.\ Ione. Recomendei dedicar a aula à prática de tabuada dado o nível de defasagem. A professora escreveu as tabuadas do 3 ao 9 na lousa e propôs 15 exercícios de multiplicação com números de dois dígitos.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{29/04 --- Profa.\ Ione, 1º B EM \textbar\ Equações do 1º grau}
+
+Acompanhei a professora Ione em uma turma regular do 1ºB. A aula abordou equações do primeiro grau, incluindo casos com frações. As maiores dificuldades foram o cálculo do MMC e a sequência de passos. A turma mista evidenciou grande disparidade de níveis.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{06/05 --- Profa.\ Ione, eletiva 1º EM \textbar\ Situações de compra e venda}
+
+Os alunos trabalharam o tópico 6 da apostila (situações de compra e venda). Em seguida, a professora propôs problemas de soma e subtração. A discrepância de níveis na turma foi evidente: para alguns o conteúdo era trivial, para outros representava desafio considerável.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{13/05 --- Profa.\ Ione, eletiva 1º EM \textbar\ Leitura e escrita de números, multiplicação}
+
+Os alunos resolveram o tópico 7 (leitura e escrita de números) sem dificuldades. Em seguida, 15 problemas de multiplicação de dois dígitos. Muitos utilizaram colinha de tabuada e confundiam-se ao multiplicar a dezena, esquecendo de adicionar o zero.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{20/05 --- Profa.\ Ione, eletiva 1º EM \textbar\ Soma de frações}
+
+A professora propôs 20 problemas de soma de frações. Apresentei a regra da borboleta na lousa com exemplos resolvidos por alunos chamados à frente. Os alunos assimilaram a técnica com relativa facilidade, mas as dificuldades com tabuada comprometeram a execução.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{27/05 --- Profa.\ Ione, eletiva 1º EM \textbar\ Ordenação de números e multiplicação de frações}
+
+Os alunos trabalharam o tópico 8 (ordenação e comparação de números). Ao final, a professora propôs problemas de multiplicação de frações, conteúdo mais simples que a soma, mas poucos demonstraram disposição para tentar.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{03/06 --- Prof.\ Francisco, 3º D EM \textbar\ Probabilidade}
+
+Primeira aula com o Prof.\ Francisco às quartas. A aula iniciou com uma apresentação em PowerPoint sobre probabilidade, de forma dinâmica, com os alunos respondendo perguntas. Os alunos mostraram-se mais participativos do que as turmas de primeiro ano.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{10/06 --- Profa.\ Ione, eletiva 1º EM \textbar\ Reta numérica e potenciação de frações}
+
+Os alunos resolveram o tópico 9 (reta numérica) sem dificuldades. Em seguida, exercícios de potenciação de frações: no início confundiram soma com multiplicação, mas ao longo dos exercícios compreenderam e passaram a reproduzir a resolução com facilidade.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{17/06 --- Prof.\ Francisco, 3º D EM \textbar\ Probabilidade (continuação)}
+
+Continuação da aula anterior. O professor apresentou mais conceitos e os alunos resolveram exercícios clássicos de probabilidade. A maioria não apresentou dúvidas significativas.
+
+\textbf{Duração:} 3h
+
+\subsubsection*{24/06 --- Profa.\ Ione, eletiva 1º EM \textbar\ Sistema de numeração decimal e potenciação com bases negativas}
+
+Os alunos trabalharam o tópico 10 (sistema de numeração decimal); muitos não entendiam os enunciados por não estarem habituados a lê-los. A professora propôs exercícios de potenciação com bases negativas. Chamei alunos à lousa e ensinei como lidar com sinais negativos para expoentes pares e ímpares.
+
+\textbf{Duração:} 3h
+
+\end{document}
